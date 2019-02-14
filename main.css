@@ -1,0 +1,24 @@
+body {
+  /*background-color: rgb(200, 210, 230);*/
+}
+
+.canvas_container {
+
+}
+
+.canvas_game {
+  /*position: absolute;
+  top: 0;
+  left: 0;*/
+  position: relative;
+  margin: 15px;
+  border: solid 4px rgba(0,0,0,0.5);
+}
+
+#canvas_game {
+  z-index: 1000
+}
+
+#canvas_game_field {
+  z-index: 1010
+}
